@@ -308,7 +308,7 @@ class Bond:
             if dt > settle_dt:
                 n += 1
         n = n - 1
-
+        print(f"n is {n}")
         if n < 0:
             raise FinError("No coupons left")
 
